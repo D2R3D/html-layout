@@ -1,0 +1,65 @@
+ body{
+     margin: 0;
+     padding: 10px;
+}
+.topBox{
+    width: 99vw;
+    border: 5px solid rgb(0, 0, 0);
+    padding:10px;
+    box-sizing: border-box; 
+}
+    .firstBoxInTop {
+        height: 140px;
+        width: 50px;
+        background-color: rgb(69, 14, 133);
+        display: inline-block;
+    }
+
+    .secondBoxInTop {
+        width: 400px;
+        height: 200px;
+        background-color: red;
+        margin:0 100px;
+        display: inline-block;
+       
+    }
+    .topCircle {
+        display:inline-block;
+        width: 100px;
+        height: 100px;
+
+    }
+
+.secondBox{
+    border: dotted black;
+    padding: 35px;
+   height: 30vh;
+    width: 99vw;
+    box-sizing: border-box;
+    margin-top:30px;
+
+}
+
+.shadowBox {
+    width: 100%;
+    height: 100%;
+    background-color: lemonchiffon;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+
+
+.footerBoxBottom{
+height: 30vh;
+width: 60%;
+margin: 30px auto;
+border: solid black; 
+background: black
+
+}
+.footerBoxBottom h1 {
+    text-align: center;
+    color: blueviolet
+    
+}
